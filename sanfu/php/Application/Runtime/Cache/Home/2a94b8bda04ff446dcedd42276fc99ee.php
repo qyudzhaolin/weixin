@@ -1,0 +1,284 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>三福圣诞大FUN送，DIY贺卡赢大礼 </title>
+    <script type="text/javascript">
+        var img="/h5/sanfu/php/Public/home/img/"
+        var url ="<?php echo U('Index/saveInfo');?>";
+        var nackname = "<?php echo ($nickname); ?>";
+        var isold = <?php echo ($isold); ?>;
+
+    </script>
+    <script src="/h5/sanfu/php/Public/home/js/init.js"></script>
+    <script src="/h5/sanfu/php/Public/home/js/swiper.min.js"></script>
+    <script src="/h5/sanfu/php/Public/home/js/createjs.min.js"></script>
+    <link rel="stylesheet" href="/h5/sanfu/php/Public/home/css/main.css?a=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/h5/sanfu/php/Public/home/css/swiper.min.css">
+    <script src="/h5/sanfu/php/Public/home/js/vconsole.min.js"></script>
+
+</head>
+<body>
+    <div id="index-wrap">
+        <audio src="/h5/sanfu/php/Public/home/img/audio/news.mp3" id = "music1" style = "opacity: 0;" > 您的浏览器不支持 audio 标签。 </audio>
+        <audio src="/h5/sanfu/php/Public/home/img/audio/back.mp3" id = "music2" style = "opacity: 0;" > 您的浏览器不支持 audio 标签。 </audio>
+        <div id = "box-1">
+            <div class="time">
+                <p>12:25</p>
+                <span>12月25日&nbsp;星期一</span>
+            </div>
+            <div class="button-info">
+                <img src="/h5/sanfu/php/Public/home/img/box1-hdButton.png" alt="" class="button">
+                <img src="/h5/sanfu/php/Public/home/img/box1-hdTitle.png" alt="" class="title">
+            </div>
+            <img src="/h5/sanfu/php/Public/home/img/box2-top.jpg"  alt="" class="loding-img">
+            <img src="/h5/sanfu/php/Public/home/img/box2-bottom.jpg" alt="" class="loding-img">
+        </div>
+        <div id = "box-2">
+            <div class="box2-top box2-fixed" >
+                <img src="/h5/sanfu/php/Public/home/img/box2-top.jpg"  alt="">
+            </div>
+            <div class="index">
+                <ul>
+                    <li class="left">
+                        <img src="/h5/sanfu/php/Public/home/img/nstx.jpg" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>在么？</p>
+                        </div>
+                    </li> 
+                    <li class="right">
+                        <img src="<?php echo ($headimgurl); ?>" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>怎么了？</p>
+                        </div>
+                    </li> 
+                    <li class="left">
+                        <img src="/h5/sanfu/php/Public/home/img/nstx.jpg" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>我有话想和你说</p>
+                        </div>
+                    </li> 
+                    <li class="right">
+                        <img src="<?php echo ($headimgurl); ?>" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>你...你说...</p>
+                        </div>
+                    </li> 
+                    <li class="left">
+                        <img src="/h5/sanfu/php/Public/home/img/nstx.jpg" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>我怕圣诞晚上的祝福太多，您会不在意我的问候；我怕平安夜晚上的烟花太吵，您会听不到我的祝福；我怕狂欢夜晚上的菜肴太香，您会看不见我的短信；所以选择现在这个时候给您送来祝福。我怀着一颗热忱的心，祝您全家幸福，心想事成圣诞快乐！</p>
+                        </div>
+                    </li> 
+                    <li class="right">
+                        <img src="<?php echo ($headimgurl); ?>" alt="">    
+                        <div>
+                            <span></span>
+                            <b></b>
+                            <p>这不就是群发吗...太敷衍了吧...</p>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+            <div class="box2-bottom box2-fixed">
+                <img src="/h5/sanfu/php/Public/home/img/box2-bottom.jpg" alt="">
+                <p class="input"></p>
+            </div>
+            <div class="tk">
+                <img src="/h5/sanfu/php/Public/home/img/box2-tk.png" alt="">
+                <a class="next-box"></a>
+            </div>
+        </div>
+        <div id = "box-3">
+            <p class="next-box"></p>
+        </div>
+        <div id = "box-4">
+            <img src="/h5/sanfu/php/Public/home/img/box4-ts.png" alt="" class="ts" id = "box-4-tsk">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/h5/sanfu/php/Public/home/img/img/back1.jpg" alt="" ></div>
+                    <div class="swiper-slide"><img src="/h5/sanfu/php/Public/home/img/img/back2.jpg" alt="" ></div>
+                    <div class="swiper-slide"><img src="/h5/sanfu/php/Public/home/img/img/back3.jpg" alt="" ></div>
+                    <div class="swiper-slide"><img src="/h5/sanfu/php/Public/home/img/img/back4.jpg" alt="" ></div>
+                    <div class="swiper-slide"><img src="/h5/sanfu/php/Public/home/img/img/back5.jpg" alt="" ></div>
+                </div>
+            </div>
+            <div class="button">
+                <img src="/h5/sanfu/php/Public/home/img/box4-left.png" alt="" class="button-left" id = "button-left">
+                <img src="/h5/sanfu/php/Public/home/img/box4-right.png" alt="" class="button-right" id = "button-right">
+                <img src="/h5/sanfu/php/Public/home/img/box4-anniu.png" alt="" class="button-anniu">
+            </div>
+        </div>
+        <img src="/h5/sanfu/php/Public/home/img/rule-button.png" alt="" class="fd-button" id = "rule-button">
+        <img src="/h5/sanfu/php/Public/home/img/music-button.png" alt="" class="fd-button music-show" id = "music-button">
+        <div id = "box-5" >
+            <input id = "input-form-to"type="text" class="to" maxlength = "10" placeholder = "对方名字（字数限制10）">
+            <textarea name="" id="box5-form-content" class="content" maxlength = "60" placeholder = "输入你想说的话（字数限制60）"></textarea>
+            <div class="list">
+                <p>想说的话太多，是不是一时也不知从何说起？<br>看看以下的文字是否包含了你的心意吧~</p>
+                <ul>
+                    <li><a href="###">吃嘛嘛香，小胖5斤</a></li>
+                    <li><a href="###">吃的东西都胖在对象身上</a></li>
+                    <li><a href="###">沾枕头就着，失眠退散</a></li>
+                </ul>
+                <p class="hyp">换一批</p>
+            </div>
+            <img src="/h5/sanfu/php/Public/home/img/box5-anniu.png" alt="" class="next-box">
+        </div> 
+        <div id = "box-6" >
+            <div class="content">
+                <canvas id="canvas" width = "425" height = "694"></canvas>
+                <div class="remove" id="remove"><span></span><span></span></div>
+            </div>
+            <img src="/h5/sanfu/php/Public/home/img/box6-button1.png" alt="" class="next-box" id = "box6-b1">
+            <img src="/h5/sanfu/php/Public/home/img/box6-anniu.png" alt="" class="next-box" id = "box6-b2">
+            <div class="box6-list">
+                <ul id = "box6-ico-box">
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-1.png"  data-src = "ico1"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-2.png"  data-src = "ico2"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-3.png"  data-src = "ico3"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-4.png"  data-src = "ico4"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-5.png"  data-src = "ico5"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-6.png"  data-src = "ico6"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-7.png"  data-src = "ico7"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-8.png"  data-src = "ico8"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-9.png"  data-src = "ico9"  alt=""></li>
+                    <li><img src="/h5/sanfu/php/Public/home/img/ico/ico-10.png" data-src = "ico10" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div id = "box-7">
+            <div class="content"></div>
+            <p>长按图片保存贺卡<br>保存好后就可以发给TA啦~</p>
+            <img src="/h5/sanfu/php/Public/home/img/box7-anniu.png" alt="" class="next-box">
+        </div>
+        <div id = "fx">
+            <img src="/h5/sanfu/php/Public/home/img/fxym.jpg" alt="">
+        </div>
+        <div id="rule">
+            <p class="next-box"></p>
+            <div class="content">
+                <img src="/h5/sanfu/php/Public/home/img/rule-index.png" alt="">
+            </div>
+        </div>
+        <div id = "loading" >
+            <div class="index">
+                <div id="floatingCirclesG">
+                    <div class="f_circleG" id="frotateG_01"></div>
+                    <div class="f_circleG" id="frotateG_02"></div>
+                    <div class="f_circleG" id="frotateG_03"></div>
+                    <div class="f_circleG" id="frotateG_04"></div>
+                    <div class="f_circleG" id="frotateG_05"></div>
+                    <div class="f_circleG" id="frotateG_06"></div>
+                    <div class="f_circleG" id="frotateG_07"></div>
+                    <div class="f_circleG" id="frotateG_08"></div>
+                </div>
+                <p>正在生成</p>
+            </div>            
+        </div>
+    </div>
+    <script src="/h5/sanfu/php/Public/home/js/jquery-3.2.1.min.js"></script>
+    <script src="/h5/sanfu/php/Public/home/js/fabric.min.js"></script>
+    <script src="/h5/sanfu/php/Public/home/js/loding.js"></script>
+    <script src="/h5/sanfu/php/Public/home/js/main.js?a=<?php echo time(); ?>"></script>
+
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript"src=" https://max-digital-api-dev.oss-cn-shanghai.aliyuncs.com/js/interface/service/spreading-tree/mco-1-1.js"></script>
+    <script type="text/javascript">
+        var userinfo =  [<?php echo ($openid); ?>];
+        __$$_obj.configure('4MKvlBDxr1Z2NtVA','','sbywD5x9ZEquHYdMc8hGF3LaCpQ2nWAe',userinfo);
+    </script>
+    <script type="text/javascript">
+        //alert(location.href.split('#')[0]);
+        wx.config({
+            debug: false,
+            appId: '<?php echo ($signPackage["appId"]); ?>',
+            timestamp: '<?php echo ($signPackage["timestamp"]); ?>',
+            nonceStr: '<?php echo ($signPackage["nonceStr"]); ?>',
+            signature: '<?php echo ($signPackage["signature"]); ?>',
+            jsApiList: [
+                'checkJsApi',
+                'onMenuShareTimeline',
+                'onMenuShareAppMessage',
+                'onMenuShareQQ',
+                'onMenuShareWeibo',
+                'hideMenuItems',
+                'showMenuItems',
+                'hideAllNonBaseMenuItem',
+                'showAllNonBaseMenuItem'
+            ]
+        });
+        var shareData64 = {
+            title: "三福圣诞大FUN送，DIY贺卡赢大礼",                 //必填,分享标题
+            desc:  "刚刚在线DIY了一张画风清奇的圣诞贺卡，没想到TA真情实感地说出了这种话…",  //选填,分享描述
+            imgUrl: "http://christmaswish.sanfu.max-digital.cn/Public/home/img/share.jpg",   //选填,分享图链接
+            link:   "http://christmaswish.sanfu.max-digital.cn",
+        };
+
+        wx.ready(function () {
+            //默认显示
+            wx.showOptionMenu();
+            wx.onMenuShareAppMessage(window.__$$_obj.makeAppMessageData(shareData64));
+            wx.onMenuShareTimeline(window.__$$_obj.makeTimelineData(shareData63));
+            wx.onMenuShareQZone(window.__$$_obj.makeQZoneData(shareData64));
+            wx.onMenuShareWeibo(window.__$$_obj.makeWeiboData(shareData64));
+            wx.onMenuShareQQ(window.__$$_obj.makeQQData(shareData64));
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '#button-left',
+                prevEl: '#button-right',
+            },
+            loop : true,
+            on: {
+                slideChangeTransitionEnd: function(){
+                    box4Index =  this.realIndex
+                },
+            },
+        });
+    </script>
+    <script>
+        document.addEventListener("WeixinJSBridgeReady", function () {
+                music1.play();
+                music1.pause();
+                music2.play();
+                music2.pause();
+                if(isold){
+                    music2.play();
+                }
+        }, false);
+    </script>
+</body>
+</html>
